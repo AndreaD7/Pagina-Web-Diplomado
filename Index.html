@@ -1,87 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.rtl.min.css" integrity="sha384-WJUUqfoMmnfkBLne5uxXj+na/c7sesSJ32gI7GfCk4zO4GthUKhSEGyvQ839BC51">
+    <link rel="stylesheet" href="./Estilos/style.css">
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="Estilos/mq.css">
+    
 </head>
-<body>
-<!-- Cabecera -->
-<header>
-<nav><!-- Barra de navegacion -->
-<a href="./Index.html"><img src="./Imágenes/Logo2.png" alt=""></a>
-<ul>
-    <li> <a href="./Index.html">Inicio</a></li>
-    <li> <a href="./Reclutamiento.html">Reclutamiento</a></li>
-    <li> <a href="./Entrevista.html">Entrevista</a></li>
-    <li> <a href="./Capacitación.html">Capacitacion</a></li>
-    <li> <a href="#Tips">Tips</a></li>
-<img src="./Imágenes/reclutamiento.jpg" alt="">
+<body class="body">
+    <div class="Contenedor">
+    <!-- Cabecera -->
+       <header>
+            <nav><!-- Barra de navegacion -->
+                <a href="./Index.html"><img src="./Imágenes/Logo página.png" class="img-logo" alt=""></a>
+                <ul>
+                    <li> <a href="./Index.html">Inicio</a></li>
+                    <li> <a href="./Reclutamiento.html">¿Quienes Somos?</a></li>
+                    <li> <a href="./Entrevista.html">Servicios</a></li>
+                    <li> <a href="./Capacitación.html">Contactanos</a></li>
+                    <li> <a href="#Tips">Tips</a></li>
+                    <img src="" alt=""> <!-- Poner imagen -->
+                </ul>
+            </nav>
+        </header>
+        <!-- Seccion 1 Video y escrito -->
+        <section class="seccion1">
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/t1k2y2yP-Vw"
+            title="Reclutamiento de Personal" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+            <article class="texto">
+                <h2>Reclutamiento</h2>
+                <p>"Es un conjunto de procedimientos usados en el proceso de convocatoria para la búsqueda de candidatos potenciales para cubrir una vacante determinada</p>
+                <div class="boton">
+                    <a href="#">
+                        <div>Más info</div>
+                    </a>
+                </div><!-- Contenedor -->
+            </article>
+        </section>
+    <!-- Seccion 2 Imagen y Texto -->
+    <section>
+        <Figure class="img-art">
+            <img src="./Imágenes/Meet.png" alt="">
+        </Figure>
 
-</ul>
+        <div class="cont-art">
+            <div class="row"> <!-- Crea la fila -->
+                <div class="col-lg-6 col-md-6 col-sm-12"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos magni saepe non! Fugiat natus dolorum quia, similique error sed non tenetur saepe eos dicta, aliquid maiores, excepturi tempore iste!</p></div> <!-- Crea la columna -->
+                
+                <div class="col-lg-6 col-md-6 col-sm-12" ><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore dignissimos magni saepe non! Fugiat natus dolorum quia, similique error sed non tenetur saepe eos dicta, aliquid maiores, excepturi tempore iste!</p></div> <!-- Crea la columna -->
+                <div class="col-lg-6 col-md-6 col-sm-12"></div>
+            </div>
 
-</nav>
+            <h2> Tips Para Entrevista Virtual</h2>
+            <ul type="square"> <!-- Lista Desordenada -->
+                <li>- Organiza un ambiente donde no tengas distractores</li>
+                <li>- No olvides tener un codedress acorde para la ocasión</li>
+                <li>- Sé quien eres, actua de forma natural</li>
+                <li>- Responde con honestidad las preguntas que te haga el entrevistador</li>
+                <li>- Recuerda no tienes porque saberlo todo, está bien decir no sé o no tengo la experiencia</li>
+        
+            </ul>   
+           
 
-</header>
+        </div>
 
-<!-- Seccion Video y escrito -->
-<section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/t1k2y2yP-Vw" title="Reclutamiento de Personal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    
-<article>
-    <h2>Reclutamiento</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, quis expedita! Similique esse nihil facilis labore alias. Natus quibusdam aspernatur labore hic laborum temporibus, unde officia dolorum, ea facere fugiat.</p>
+    </section>
 
-    <div>
-     <a href="#"> <div>Más info</div></a>
-
-    </div><!-- Contenedor -->
-</article>
-
-</section>
-
-
-<!-- Seccion 2 Imagen y Texto -->
-<section>
-    <Figure>
-        <img src="./Imágenes/Logo.png" alt="">
-    </Figure>
-    <div>
-<h2> Cinco Tips Para Tu CV</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas eligendi sapiente temporibus accusamus reiciendis quibusdam mollitia possimus, enim sed magni itaque voluptate laborum? Rerum illo quibusdam fugit blanditiis neque!</p>
-
-    </div>
-
-</section>
-
-<!-- Seccion 3 Imagen y Texto -->
-<section>
-    <Figure>
-        <img src="./Imágenes/Michi.jpg" alt="">
-    </Figure>
-    <div id="Tips">
-<h2> Cinco Tips Para Entrevista</h2>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptas eligendi sapiente temporibus accusamus reiciendis quibusdam mollitia possimus, enim sed magni itaque voluptate laborum? Rerum illo quibusdam fugit blanditiis neque!</p>
-
-    </div>
-
-</section>
-
-<!-- Pie de Página -->
-<footer>
-<Address>Derechos Reservados Psicologos Online</Address>
-<div>
-<a href="#"> Facebook</a>-
-<a href="#"> Instagram</a>-
-<a href="#"> Twiter</a>
+    <!-- Seccion 3 Imagen y Texto -->
+    <section>
+        <Figure class="img-art">
+            <img src="./Imágenes/CV.png" alt="">
+        </Figure>
+        <div id="Tips" class="cont-art">
+            <h2> Tips Para Hacer Tú CV</h2>
+            <p>Busca un diseño acorde a tus gustos</p>
+            <p>Resume tu información en una sola hoja</p>
+            <p>Coloca el nombre de la empresa, cargo, y funciones</p>
+            <p>Coloca una foto actual y formal</p>
+            <p>No recargues tu documento con certificaciones</p>
 
 
+        </div>
+
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <Address>Derechos Reservados Psicologos Online</Address>
+        <div>
+            <a href="#"> Facebook</a>-
+            <a href="#"> Instagram</a>-
+            <a href="#"> Twiter</a>
+
+
+        </div>
+
+
+
+    </footer>
 </div>
-
-
-
-</footer>
-    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
+
 </html>

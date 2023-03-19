@@ -1,0 +1,131 @@
+body{
+    font-family: 'Comic Neue', cursive;/* Fuente de Tipografía */
+    background: white;
+    max-width: 900px; /* Ancho Máximo */
+    margin: 0 auto;/* Margen */
+}
+
+nav{
+
+    width: 100%; /* Ancho */
+    height: 160px;/* Altura */
+    background-color: #e8c4bb; /* Color de Fondo */
+
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+    }
+
+    nav ul li:hover{ /* Transición de color */
+        background-color: white;
+    }
+
+    .img-logo{
+        width: 105px; /* Ancho */
+        padding: 50px; /* Bajar */
+        padding-left: 5%;
+    }
+
+    nav ul{
+        padding-top: -30px;
+        display: inline-flex;
+        position: relative;
+        top: -80px;
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+h2,figure, ul{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+
+}
+
+/* Estilos Sección 1 */
+.seccion1{
+    background-color: #e8c4bb;
+
+}
+
+
+
+.video{
+    width: 50%;
+    padding: 15px;
+}
+.texto{
+    width: 30%;
+    padding: 15px;
+    vertical-align: top;
+    color: white;
+}
+article{
+    padding: 30px;
+    background-color: #cfa196; 
+    }
+    article h2{
+        border-bottom: 1px solid white;
+        
+    }
+    .texto, .video{
+        display: inline-block;
+    }
+    .boton{
+        text-align: center; /* Alinear al centro */
+        background-color: #e8c4bb;
+        padding: 10px;
+    }
+    .boton a{
+        text-decoration: none;
+        color: white;
+
+    }
+    .boton:hover{
+        background: #e8c4bb
+    
+    }
+
+    /* Articles */
+
+    section{
+        background-color: #e8c4bb /* Color de Fondo */;
+        padding: 15px;
+        text-align: center;
+    }
+    section h2{
+        border-bottom: 1px solid white
+        
+    }
+    .img-art{
+        max-width: 100%;
+        vertical-align: top;
+    }
+
+    .cont-art{
+        width: 100%;
+        vertical-align: top;
+        text-align: center;
+        color: white
+    }
+    footer{
+        background-color: #e8c4bb;
+        color: white;
+        line-height: 30px;
+        text-align: center;
+        padding: 45px;
+    }
+    footer div a{
+        text-decoration: none;
+        color: white;
+    }
+     
+ 
